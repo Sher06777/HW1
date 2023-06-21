@@ -1,13 +1,13 @@
 let justNumber = prompt('Введите число')
-if (age === null){
+if (justNumber === null){
     alert('Вы нажали на отмену');
-}else if (age === ""){
+}else if (justNumber === ""){
     alert('Вы ничего не ввели');
-}else if (age === '0'){
+}else if (justNumber === '0'){
     alert('Число равно нулю');
-}else if (age % 2 === 0){
+}else if (justNumber % 2 === 0){
     alert('Чётное');
-}else if (age % 2 === 1){
+}else if (justNumber % 2 === 1){
     alert('Нечётное');
 }else{
     alert('Введите только числа');
